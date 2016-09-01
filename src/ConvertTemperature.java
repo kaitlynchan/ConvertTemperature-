@@ -6,8 +6,8 @@ public class ConvertTemperature {
 	
 	public static void main (String[]args){
 		
-		int Fah = 32;
-		int Cel = (Fah-32)*(5/9);
+		double Fah = 412;
+		double Cel = (Fah-32)*(5)/(9);
 		
 		
 		System.out.println("Temperature from Fahrenheit to Celcius: " + Cel);
